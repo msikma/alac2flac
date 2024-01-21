@@ -1,0 +1,28 @@
+{
+  "name": "alac2flac",
+  "version": "1.0.0",
+  "description": "Script for running ffmpeg to convert .alac files to .flac",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "index.js",
+    "package.json",
+    "readme.md"
+  ],
+  "keywords": [
+  ],
+  "bin": {
+    "alac2flac": "./bin/alac2flac.mjs"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "argparse": "^2.0.1",
+    "fast-glob": "^3.3.2"
+  }
+}
